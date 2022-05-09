@@ -55,6 +55,9 @@
 
 <style lang="scss">
 .tabs-bottom {
+  .q-tab {
+    width: 50%;
+  }
     .q-tab__content {
       .q-tab__label {
         font-size: 11 px;
