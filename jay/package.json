@@ -6,7 +6,6 @@
   "author": "Jay <jayceon310893@gmail.com>",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
     "dev": "quasar dev",
     "build": "quasar build",
     "lint": "eslint --ext .js,.vue ./",
