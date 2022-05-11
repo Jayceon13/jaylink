@@ -6,7 +6,7 @@
   "author": "Jay <jayceon310893@gmail.com>",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "quasar serve",
     "build": "quasar build"
   },
   "dependencies": {
