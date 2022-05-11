@@ -4,7 +4,7 @@
     <!-- (Optional) The Header -->
     <q-header elevated>
       <q-toolbar>
-        <q-toolbar-title align="center" class="font-Chilanka-bold text-3XL">
+        <q-toolbar-title @click="$router.push('/')" align="center" class="font-Chilanka-bold text-3XL">
           KIKA PRO MAKEUP
         </q-toolbar-title>
       </q-toolbar>
@@ -35,7 +35,7 @@
           v-for="(menuItems, index) in menuItems"
           :key="index"
           :icon="menuItems.icon"
-          to="menuItem.link"
+          :to="menuItems.link"
           :label="menuItems.displayName"
           replace
           :ripple="false"

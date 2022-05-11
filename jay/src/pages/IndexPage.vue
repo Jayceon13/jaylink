@@ -18,9 +18,6 @@
 </template>
 
 <style lang="scss">
-.list-page {
-  background-image: linear-gradient(#FBEEFF, #D7A6E8);
-}
 
 .my-btn {
   display: flex;
